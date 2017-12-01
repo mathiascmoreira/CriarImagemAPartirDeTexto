@@ -1,0 +1,1 @@
+terminar implementação de carregamento da legenda

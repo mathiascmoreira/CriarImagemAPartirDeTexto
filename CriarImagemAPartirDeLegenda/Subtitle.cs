@@ -4,6 +4,11 @@ namespace CriarImagemAPartirDeLegenda
 {
     public class Subtitle
     {
-        List<Section> Sections { get; set; }
+        public Subtitle()
+        {
+            Sections = new List<Section>();
+        }
+
+        public List<Section> Sections { get; set; }
     }
 }
